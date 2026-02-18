@@ -16,4 +16,9 @@ public class DefaultRestController {
         return "Hi World!";
     }
 
+    @GetMapping("/workout")
+    public String Workout() {
+        return "Do Workout!";
+    }
+
 }
